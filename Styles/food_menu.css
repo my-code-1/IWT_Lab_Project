@@ -2,8 +2,49 @@
     margin: 0;
     padding: 0;
 }
+/* nav section */
+.login_info{
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding:10px;
+    color:black;
+    margin-left: 20px;
+}
+ #order{
+    list-style: none;
+ }
+nav{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+nav>ul{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul>li{
+    list-style: none;
+}
+nav ul li>a{
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding:10px;
+    color:black
+}
+/* main_part */
+.biryani>a{
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 20px;
+    color:crimson;
+}
 main{
     background-color: whitesmoke;
+    margin-top: 100px;
 }
 .width_design{
     max-width: 50%;
